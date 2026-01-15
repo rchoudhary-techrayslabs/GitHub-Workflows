@@ -17,11 +17,10 @@ jobs:
       - names: hello world
         run: echo "Hello World"
         shell: terminal
-
-    goodbye:
+     goodbye:
       runs-on: ubuntu-latest
       steps:
         -name: goodbye world
-         run: echo "Goodbye World"
+        -run: echo "Goodbye World"
         shell: terminal
          
